@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title> Javascript - functions </title>
+<script type="text/javascript">
+function letter1(){
+alert('Aa/ a in father/ два=dva = "two" ');
+		}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter2(){
+		alert('Бб/ B in bad/ оба --> óba = "both" ');
+			}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter3(){
+		alert(' Вв / V in vine/ вот --> vot = "here" ');
+				}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter4(){
+		alert('Гг / g in go / год --> god = "year" ');
+				}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter5(){
+		alert(' Дд / d in do / да --> da = "yes" ');
+					}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter6(){
+		alert('Ее/ ye in yes/ не --> ne ya = "not" ');
+						}
+		
+		Alphabet();
+		</script>
+						
+		<script type="text/javascript">
+		function letter7(){
+		alert('Ёё/ yo in your/ ёж --> yosh = "hedgehog" ');
+							}
+		
+		Alphabet();
+	  </script>
+		<script type="text/javascript">
+		function letter8(){
+		alert('Жж/ s in pleasure/ жук --> zhuk = "beetle" ');
+								}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter9(){
+		alert('Зз/ z in zoo/ зной --> znoy = "heat" ');
+									}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter10(){
+		alert('Ии/ i in police/ или --> ili = "or" ');
+										}
+		
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+	  function letter11(){
+		alert('Йй/ y in toy/ мой --> moy = "my or mine" ');
+				}
+
+				Alphabet();
+				</script>
+				<script type="text/javascript">
+					function letter12(){
+						alert('Кк/ k in kept/ KTO --> kah toe or kto = "who" ');
+					}
+
+					Alphabet();
+					</script>
+					<script type="text/javascript">
+						function letter13(){
+							alert('Лл/ L in lamp/ ли --> li = "whether" ');
+						}
+
+						Alphabet();
+						</script>
+				<script type="text/javascript">
+							function letter14(){
+								alert('Мм/ m the map/ меч --> mech= "sword" ');
+							}
+
+							Alphabet();
+							</script>
+							
+			<script type="text/javascript">
+						function letter15(){
+							alert('Нн/ n in not/ Ho --> no = "but" ');
+						}
+
+						Alphabet();
+						</script>
+						
+						<script type="text/javascript">
+									function letter16(){
+										alert('Оо/ o in more/ OH --> on = "he" ');
+									}
+
+									Alphabet();
+									</script>
+									
+		<script type="text/javascript">
+			function letter17(){
+				alert('Пп/ p in pet / под --> pod = "under" ');
+			}
+
+			Alphabet();
+			</script>
+			
+			<script type="text/javascript">
+				function letter18(){
+					alert('Рр / rolled r / peka --> reka = "river" ');
+				}
+				Alphabet();
+				</script>
+				
+			<script type="text/javascript">
+				function letter19(){
+					alert('Сс / s in set /если --> yésli = "if" ');
+				}	
+				Alphabet();
+				</script>
+				
+			<script type="text/javascript">
+				function letter20(){
+					alert('Тт / t in top / TOT --> tot = "that"');
+				}
+				Alphabet();
+				</script>
+				
+				<script type="text/javascript">
+					function letter21(){
+						alert('Уу / oo in tool / уже --> uzhé = "already" ');
+					}
+					Alphabet();
+					</script>
+					
+			<script type="text/javascript">
+				function letter22(){
+					alert('Фф / f in face / форма --> fórma = "form" ');
+				}		
+				Alphabet();
+				</script>
+				
+			<script type="text/javascript">
+				function letter23(){
+					alert('Хх / ch in loch / дух --> dukh = "spirit" ');
+				}	
+				Alphabet();
+				</script>
+				
+				<script type="text/javascript">
+					function letter24() {
+						alert('Цц / ts in sits / конец --> konéts = "end" ');
+					}
+					Alphabet();
+					</script>
+					
+		<script type="text/javascript">
+			function letter25() {
+				alert('Чч / ch in chat / час --> chas = "hour" ');
+			}			
+			Alphabet();
+			</script>
+			
+		<script type="text/javascript">
+			function letter26() {
+				alert('Шш / sh in sharp / ваш --> vash = "yours" ');
+			}	
+			Alphabet();
+			</script>
+			
+		<script type="text/javascript">
+			function letter27() {
+				alert('Щщ / sh in sheer / щека --> shcheká = "cheek"');
+			}	
+			Alphabet();
+			</script>
+			
+			<script type="text/javascript">
+				function letter28(){
+					alert('Ъъ / hard sign / объект --> obyékt = "object"');
+				}
+				Alphabet();
+				</script>
+				
+				<script type="text/javascript">
+					function letter29(){
+						alert('Ы ы / i in hit / ты --> ty = "you"');
+					}
+					Alphabet();
+					</script>
+				
+				<script type="text/javascript">
+					function letter30(){
+						alert('Ьь / soft sign / весь --> vyes = "all"');
+					}
+					Alphabet();
+					</script>
+					
+					<script type="text/javascript">
+						function letter31(){
+							alert('Ээ / e in met / это --> éto = "this, that"');
+						}
+						Alphabet();
+						</script>
+				
+						<script type="text/javascript">
+							function letter32(){
+								alert('Юю / u in use /  юг --> yug = "south"');
+							}
+							Alphabet();
+							</script>
+							
+				<script type="text/javascript">
+					function letter33(){
+						alert('Яя / ya in yard / ряд --> ryad = "row"');
+					}
+					Alphabet();
+					</script>
+			
+	</head>
+	<body>
+		<h2> The Russian Alphabet </h2>
+		<form>
+			
+			<input type="button" value="A a " onclick="letter1();">
+			<input type="button" value="Б б " onclick="letter2();">
+			<input type="button" value="В в " onclick="letter3();">
+			<input type="button" value="Г г " onclick="letter4();">
+			<input type="button" value="Д д " onclick="letter5();">
+			<input type="button" value="Е е " onclick="letter6();">
+			<br/>
+			<input type="button" value="Ё ё " onclick="letter7();">
+			<input type="button" value="Ж ж " onclick="letter8();">
+			<input type="button" value="З з " onclick="letter9();">
+			<input type="button" value="И и " onclick="letter10();">
+			<input type="button" value="Й й " onclick="lette11();">
+			<input type="button" value="К к " onclick="letter12();">
+			<input type="button" value="Л л " onclick="letter13();">
+			<input type="button" value="М м " onclick="letter14();">
+			<br/>
+			<input type="button" value="Н н	" onclick="letter15();">
+			<input type="button" value="О о " onclick="letter16();">
+			<input type="button" value="П п " onclick="letter17();">
+			<input type="button" value="Р р " onclick="letter18();">
+			<input type="button" value="С с " onclick="letter19();">
+			<input type="button" value="Т т " onclick="letter20();">
+			<input type="button" value="У у " onclick="letter21();">
+			<input type="button" value="Ф ф " onclick="letter22();">
+			<br/>
+			<input type="button" value="Х х " onclick="letter23();">
+			<input type="button" value="Ц ц " onclick="letter24();">
+			<input type="button" value="Ч ч " onclick="letter25();">
+			<input type="button" value="Ш ш " onclick="letter26();">
+			<input type="button" value="Щ щ " onclick="letter27();">
+			<input type="button" value="Ъ ъ " onclick="letter28();">
+			<input type="button" value="Ы / ы " onclick="letter29();">
+			<input type="button" value="Ь ь " onclick="letter30();">
+			<br/>
+			<input type="button" value="Э э " onclick="letter31();">
+			<input type="button" value="Ю ю " onclick="letter32();">
+			<input type="button" value="Я я " onclick="letter33();">
+		</form>
+		<h2> Please click on a Cyrillic character to read a description <h2/>
+	</body>
+	</html>
