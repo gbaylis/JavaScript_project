@@ -52,7 +52,7 @@ alert('Aa/ a in father/ два=dva = "two" ');
 							}
 		
 		Alphabet();
-	  </script>
+	        </script>
 		<script type="text/javascript">
 		function letter8(){
 		alert('Жж/ s in pleasure/ жук --> zhuk = "beetle" ');
@@ -75,172 +75,169 @@ alert('Aa/ a in father/ два=dva = "two" ');
 		Alphabet();
 		</script>
 		<script type="text/javascript">
-	  function letter11(){
+	        function letter11(){
 		alert('Йй/ y in toy/ мой --> moy = "my or mine" ');
 				}
 
-				Alphabet();
-				</script>
-				<script type="text/javascript">
-					function letter12(){
-						alert('Кк/ k in kept/ KTO --> kah toe or kto = "who" ');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter12(){
+		alert('Кк/ k in kept/ KTO --> kah toe or kto = "who" ');
 					}
 
-					Alphabet();
-					</script>
-					<script type="text/javascript">
-						function letter13(){
-							alert('Лл/ L in lamp/ ли --> li = "whether" ');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter13(){
+		alert('Лл/ L in lamp/ ли --> li = "whether" ');
 						}
 
-						Alphabet();
-						</script>
-				<script type="text/javascript">
-							function letter14(){
-								alert('Мм/ m the map/ меч --> mech= "sword" ');
+		Alphabet();
+	       </script>
+	      <script type="text/javascript">
+	      function letter14(){
+	      alert('Мм/ m the map/ меч --> mech= "sword" ');
 							}
 
-							Alphabet();
-							</script>
-							
-			<script type="text/javascript">
-						function letter15(){
-							alert('Нн/ n in not/ Ho --> no = "but" ');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter15(){
+		alert('Нн/ n in not/ Ho --> no = "but" ');
 						}
 
-						Alphabet();
-						</script>
-						
-						<script type="text/javascript">
-									function letter16(){
-										alert('Оо/ o in more/ OH --> on = "he" ');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+	        function letter16(){
+	        alert('Оо/ o in more/ OH --> on = "he" ');
 									}
 
-									Alphabet();
-									</script>
-									
+		Alphabet();
+	       </script>
 		<script type="text/javascript">
-			function letter17(){
-				alert('Пп/ p in pet / под --> pod = "under" ');
+		function letter17(){
+		alert('Пп/ p in pet / под --> pod = "under" ');
 			}
 
-			Alphabet();
-			</script>
-			
-			<script type="text/javascript">
-				function letter18(){
-					alert('Рр / rolled r / peka --> reka = "river" ');
+		Alphabet();
+		</script>
+	       <script type="text/javascript">
+		function letter18(){
+		alert('Рр / rolled r / peka --> reka = "river" ');
 				}
-				Alphabet();
-				</script>
 				
-			<script type="text/javascript">
-				function letter19(){
-					alert('Сс / s in set /если --> yésli = "if" ');
+		Alphabet();
+		</script>
+		script type="text/javascript">
+		function letter19(){
+		alert('Сс / s in set /если --> yésli = "if" ');
 				}	
-				Alphabet();
-				</script>
 				
-			<script type="text/javascript">
-				function letter20(){
-					alert('Тт / t in top / TOT --> tot = "that"');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter20(){
+		alert('Тт / t in top / TOT --> tot = "that"');
 				}
-				Alphabet();
-				</script>
 				
-				<script type="text/javascript">
-					function letter21(){
-						alert('Уу / oo in tool / уже --> uzhé = "already" ');
+		Alphabet();
+		</script>
+	        <script type="text/javascript">
+	         function letter21(){
+		alert('Уу / oo in tool / уже --> uzhé = "already" ');
 					}
-					Alphabet();
-					</script>
 					
-			<script type="text/javascript">
-				function letter22(){
-					alert('Фф / f in face / форма --> fórma = "form" ');
-				}		
-				Alphabet();
-				</script>
-				
-			<script type="text/javascript">
-				function letter23(){
-					alert('Хх / ch in loch / дух --> dukh = "spirit" ');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter22(){
+		alert('Фф / f in face / форма --> fórma = "form" ');
 				}	
-				Alphabet();
-				</script>
 				
-				<script type="text/javascript">
-					function letter24() {
-						alert('Цц / ts in sits / конец --> konéts = "end" ');
-					}
-					Alphabet();
-					</script>
-					
+		Alphabet();
+		</script>
 		<script type="text/javascript">
-			function letter25() {
-				alert('Чч / ch in chat / час --> chas = "hour" ');
-			}			
-			Alphabet();
-			</script>
-			
-		<script type="text/javascript">
-			function letter26() {
-				alert('Шш / sh in sharp / ваш --> vash = "yours" ');
-			}	
-			Alphabet();
-			</script>
-			
-		<script type="text/javascript">
-			function letter27() {
-				alert('Щщ / sh in sheer / щека --> shcheká = "cheek"');
-			}	
-			Alphabet();
-			</script>
-			
-			<script type="text/javascript">
-				function letter28(){
-					alert('Ъъ / hard sign / объект --> obyékt = "object"');
+		function letter23(){
+		alert('Хх / ch in loch / дух --> dukh = "spirit" ');
 				}
-				Alphabet();
-				</script>
 				
-				<script type="text/javascript">
-					function letter29(){
-						alert('Ы ы / i in hit / ты --> ty = "you"');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter24() {
+		alert('Цц / ts in sits / конец --> konéts = "end" ');
 					}
-					Alphabet();
-					</script>
-				
-				<script type="text/javascript">
-					function letter30(){
-						alert('Ьь / soft sign / весь --> vyes = "all"');
-					}
-					Alphabet();
-					</script>
 					
-					<script type="text/javascript">
-						function letter31(){
-							alert('Ээ / e in met / это --> éto = "this, that"');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter25() {
+		alert('Чч / ch in chat / час --> chas = "hour" ');
+			}	
+			
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter26() {
+		alert('Шш / sh in sharp / ваш --> vash = "yours" ');
+			}
+			
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter27() {
+		alert('Щщ / sh in sheer / щека --> shcheká = "cheek"');
+			}	
+			
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter28(){
+		alert('Ъъ / hard sign / объект --> obyékt = "object"');
+				}
+				
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter29(){
+		alert('Ы ы / i in hit / ты --> ty = "you"');
+					}
+					
+		Alphabet();
+		</script>
+				
+		<script type="text/javascript">
+		function letter30(){
+		alert('Ьь / soft sign / весь --> vyes = "all"');
+					}
+					
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter31(){
+		alert('Ээ / e in met / это --> éto = "this, that"');
 						}
-						Alphabet();
-						</script>
-				
-						<script type="text/javascript">
-							function letter32(){
-								alert('Юю / u in use /  юг --> yug = "south"');
+						
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter32(){
+		alert('Юю / u in use /  юг --> yug = "south"');
 							}
-							Alphabet();
-							</script>
 							
-				<script type="text/javascript">
-					function letter33(){
-						alert('Яя / ya in yard / ряд --> ryad = "row"');
+		Alphabet();
+		</script>
+		<script type="text/javascript">
+		function letter33(){
+		alert('Яя / ya in yard / ряд --> ryad = "row"');
 					}
-					Alphabet();
-					</script>
-			
-	</head>
-	<body>
+					
+		Alphabet();
+		</script>
+	        </head>
+	       <body>
 		<h2> The Russian Alphabet </h2>
 		<form>
 			
