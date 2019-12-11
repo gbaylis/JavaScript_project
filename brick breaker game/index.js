@@ -19,4 +19,8 @@ let game = new Game(GAME_WIDTH, GAME_HEIGHT);
 
 let lastTime = 0;
 function gameLoop(timestamp) {
+let deltaTIme = timestamp - lastTime;
+  lastTime = timestamp;
+  
+
 
