@@ -22,5 +22,10 @@ function gameLoop(timestamp) {
 let deltaTIme = timestamp - lastTime;
   lastTime = timestamp;
   
+ctx.clearReact(0, 0, GAME_WIDTH, GAME_HEIGHT);
+
+  game.update(deltaTime);
+  
+  
 
 
