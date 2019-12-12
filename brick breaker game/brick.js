@@ -18,4 +18,8 @@ export default class Brick {
     this.game.ball.speed.y = -this.game.ball.speed.y;
       
       this.markedForDeletion = true;
+    }
+  }
+  
+  
     
