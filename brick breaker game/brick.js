@@ -13,5 +13,5 @@ export default class Brick {
     this.markedForDeletion = false;
   } 
   
-  update() { 
+  update() { if (detectCollision(this.game.ball, this)) { 
     
