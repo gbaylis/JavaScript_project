@@ -6,3 +6,5 @@ export default class Brick {
     
     this.game = game;
     
+    this.position = position;
+    
