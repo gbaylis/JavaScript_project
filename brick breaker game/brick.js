@@ -10,3 +10,5 @@ export default class Brick {
     this.width = 80;
     this.height = 24;
     
+    this.markedForDeletion = false;
+    
