@@ -4,3 +4,5 @@ export default class Brick {
   constructor(game, position) { 
     this.image = document.getElementById("img_brick");
     
+    this.game = game;
+    
