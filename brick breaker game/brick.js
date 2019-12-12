@@ -23,6 +23,7 @@ export default class Brick {
   
   draw(ctx) {
     ctx.drawImage(
+      this.image,
   
   
     
