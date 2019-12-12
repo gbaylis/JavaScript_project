@@ -27,6 +27,10 @@ export default class Brick {
       this.position.x,
       this.position.y,
       this.width,
+      this.height
+      );
+  }
+}
   
   
     
