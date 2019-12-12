@@ -11,4 +11,7 @@ export default class Brick {
     this.height = 24;
     
     this.markedForDeletion = false;
+  } 
+  
+  update() { 
     
