@@ -21,5 +21,7 @@ export default class Brick {
     }
   }
   
+  draw(ctx) {
+  
   
     
