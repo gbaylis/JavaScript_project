@@ -13,3 +13,8 @@ export function detectCollision(ball, gameObject) {
     ball.position.x >= leftSideOfObject &&
     ball.position.x + ball.size <= rightSideObject
     {
+    return true;
+    } else {
+    return false;
+    }
+    }
