@@ -39,17 +39,17 @@ if (
   
   this.bricks = buildLevel(this, this.levels[this.currentLevel]);
   this.ball.reset();
-  this.Objects = [this.ball, this.paddle];
+  this.gameObjects = [this.ball, this.paddle];
   
   this.gamestate = GAMESTATE.RUNNING;
 }
   
   update(deltaTime) {
-    if (this.lives === 0) {
+    if (this.lives === 0) this.gamestate = GAMESTATE.GAMEOVER;
       
       if (
         this.gamestate === GAMESTATE.PAUSED ||
-this.gamestate === GAMESTATE.MENU ||
+        this.gamestate === GAMESTATE.MENU ||
         this.gamestate ==- GAMESTATE.GAMEOVER
         )
         return;
@@ -74,15 +74,28 @@ if (this.gamestate === GAMESTATE.PAUSED) {
   ctx.rect(0, 0, this.gameWidth, this.gameHeight);
   ctx.fillStyle = "rgba(0,0,0,0.5)";
   ctx.fill();
-
-   ctx.font = "30px Arial";
-  ctx.fillStyle = "white";
-  ctx.textAlign = "center";
-  ctx.fillText("Paused", this.gameWidth / 2, this.gameHeight / 2);
+  
+  Text
 }
       
-  If (this.gamestate === GAMESTATE>MENU) {
-    ctx.rect(0, 0, this.;gameWidth, this.gameHeight);
+      if (this.gamestate === GAMESTATE.MENU) {
+        ctx.rect(0,0, this,gameWidth, this.gameHeight);
+        ctx.fillStyle = "rgba(0,0,0,1)";
+        ctxx.fill();
+        
+  ctx.font = "30px Arial";
+  ctx.fillStyle = "white";
+  ctx.textAlign = "center";
+        ctx.fillText(
+          "Press SpaceBar to Start",
+        this.gameWidth / 2,
+          this.gameHeight / 2
+          );
+      }
+     
+      
+  If (this.gamestate === GAMESTATE.GAMEOVER) {
+    ctx.rect(0, 0, this.gameWidth, this.gameHeight);
     ctx.fillStyle = "rgba(0,0,0,1)";
     ctx.fill();
     
@@ -95,8 +108,9 @@ ctx.textAlign = "center";
     
     togglePause() {
       if (this.gamestate == GAMESTATE.PAUSED) {
-        thisl.gamestate = GAMESTATE.PAUSED;
-      }
+        this.gamestate = GAMESTATE.RUNNING;
+      } else {
+        this.gamestate = GAMESTATE.PAUSED;
     }
   }
-  
+}
