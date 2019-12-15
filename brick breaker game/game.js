@@ -77,4 +77,26 @@ if (this.gamestate === GAMESTATE.PAUSED) {
 
    ctx.font = "30px Arial";
   ctx.fillStyle = "white";
+  ctx.textAlign = "center";
+  ctx.fillText("Paused", this.gameWidth / 2, this.gameHeight / 2);
+}
+      
+  If (this.gamestate === GAMESTATE>MENU) {
+    ctx.rect(0, 0, this.;gameWidth, this.gameHeight);
+    ctx.fillStyle = "rgba(0,0,0,1)";
+    ctx.fill();
+    
+    ctx.font = "30px Arial";
+    ctx.fillStyle = "white";
+ctx.textAlign = "center";
+    ctx.fillText("Game Over", this.gameWidth / 2, this.gameHeight / 2);
+  }
+    }
+    
+    togglePause() {
+      if (this.gamestate == GAMESTATE.PAUSED) {
+        thisl.gamestate = GAMESTATE.PAUSED;
+      }
+    }
+  }
   
