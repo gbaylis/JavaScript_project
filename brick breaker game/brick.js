@@ -4,11 +4,11 @@ Created by gbaylis
 date: Dec 17th 2019
 */
 
-import {detectCollision } from "./collisionDetection";
+import { detectCollision } from "./collisionDetection";
 
 export default class Brick {
   constructor(game, position) {
-    this.image = document.getElementById)"img_brick");
+    this.image = document.getElementById("img_brick");
     
     this.game = game;
     
@@ -30,7 +30,7 @@ export default class Brick {
   draw(ctx) {
     ctx.drawImage(
       this.image,
-      this.position.x, 
+      this.position.x,
       this.position.y,
       this.width,
       this.height
