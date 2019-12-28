@@ -4,36 +4,23 @@ Created by gbaylis
 date: Dec 17th 2019
 */
 
-import { detectCollision } from "./collisionDetection";
-
-export default class Brick {
-  constructor(game, position) {
-    this.image = document.getElementById("img_brick");
-    
-    this.game = game;
-    
-    this.position = position;
-    this.width = 80;
-    this.height = 24;
-    
-    this.markedForDeletion = false;
-  }
+export function detectCollision(ball, gameObject) {
+  let bottomOfBall = ball.position.y + ball.size;
+  let topOfBall = ball.position.y;
   
-  update() {
-    if (detectCollision(this.game.ball, this)) {
-      this.game.ball.speed.y = -this.game.ball.speed.y;
-      
-      this.markedForDeletion = true;
-    }
-  }
+  let topOfObject = gameObject.position.y;
+  let leftSideOfObject = gameObject.position.x;
+  let rightSideOfObject = gameObject.position.x + gameObject.width;
+  let bottomOfObject = gameObject.position.y + gameObject.height;
   
-  draw(ctx) {
-    ctx.drawImage(
-      this.image,
-      this.position.x,
-      this.position.y,
-      this.width,
-      this.height
-      );
+  if (
+    bottomOfBall >= topOfObject &&
+    topOfBall <= bottomOfObject &&
+    ball.position.x >= leftSideOfObject &&
+    ball.position.x + ball.size <= rightSideOfObject
+    ) {
+    return true;
+  } else {
+    return false;
   }
 }
