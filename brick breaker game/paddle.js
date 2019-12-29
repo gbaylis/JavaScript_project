@@ -13,7 +13,7 @@ export default class Paddle {
     this.maxSpeed = 7;
     this.speed = 0;
     
-    this.position = {
+    this.positionm = {
       x: game.gameWidth / 2 - this.width / 2,
       y: game.gameHeight - this.height - 10
     };
@@ -45,3 +45,4 @@ export default class Paddle {
       this.position.x = this.gameWidth - this.width;
   }
 }
+    
