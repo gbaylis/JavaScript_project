@@ -14,5 +14,20 @@ var family = {
 fullName: ' The Jones family',
 bills: [75, 148, 168, 284, 242, 25],
 calcTips: function() {
+this.tips = [];
+this.finalValues = [];
 
+for (var i = 0; i < this.bills.length; i++)
+{
+
+  var percentage;
+  var bill = this.bills[i];
+  
+  if (bill < 50) {
+  // .15 is the 15%
+  percentage = .15;
+  } else if (bill >= 50 && bill < 200) {
+  this.bills[i] < 200) {
+  // the .11 is the 11 percent
+  percentage = .11;
 
