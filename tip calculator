@@ -11,4 +11,6 @@ and they tip 10% if the bill is more then $200
 
 // create a variable and name it
 var family = {
+fullName: ' The Jones family',
+bills: 
 
