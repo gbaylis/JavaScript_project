@@ -23,11 +23,26 @@ for (var i = 0; i < this.bills.length; i++)
   var percentage;
   var bill = this.bills[i];
   
+  // calculate if the bill is less then $50
   if (bill < 50) {
   // .15 is the 15%
   percentage = .15;
+  // calculate if the bill is more then 50 but less then $200
   } else if (bill >= 50 && bill < 200) {
   this.bills[i] < 200) {
   // the .11 is the 11 percent
   percentage = .11;
+   } else { 
+   // the .1 is 10% 
+   percentage = .1;
+}
 
+this.tips[i] = bill * percentage;
+this.finalValues[i] = bill + bill * percentage;
+}
+}
+}
+
+// print the results from the calculations
+family.calcTips();
+console.log(family);
