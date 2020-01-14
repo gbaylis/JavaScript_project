@@ -8,3 +8,7 @@ this family tips 15% if the bill is under $50
 11% if the bill is greater then $50 but less then $200
 and they tip 10% if the bill is more then $200
 */
+
+// create a variable and name it
+var family = {
+
