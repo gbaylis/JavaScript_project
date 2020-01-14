@@ -3,7 +3,7 @@ Created by gbaylis
 Jan 13th 2020
 
 A Tip calculator program
-a family ate at some restaurants. the bills were: $89, $148, $168, $284, $242, $25
+a family ate at some restaurants. the bills were: $75, $148, $168, $284, $242, $25
 this family tips 15% if the bill is under $50
 11% if the bill is greater then $50 but less then $200
 and they tip 10% if the bill is more then $200
@@ -12,5 +12,7 @@ and they tip 10% if the bill is more then $200
 // create a variable and name it
 var family = {
 fullName: ' The Jones family',
-bills: 
+bills: [75, 148, 168, 284, 242, 25],
+calcTips: function() {
+
 
