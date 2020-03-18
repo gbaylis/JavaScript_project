@@ -46,3 +46,5 @@ this.finalValues[i] = bill + bill * percentage;
 // print the results from the calculations
 family.calcTips();
 console.log(family);
+
+
