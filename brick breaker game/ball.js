@@ -1,7 +1,7 @@
 /*
 Created by gbaylis
 Dec 10, 2019
-JS - ball.js
+JS - ball.js.   
 */
 
 import { detectCollision } from "./collisionDetection";
