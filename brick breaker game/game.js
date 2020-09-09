@@ -1,4 +1,5 @@
 /*
+Brick Breaker Game
 game.js
 */
 
