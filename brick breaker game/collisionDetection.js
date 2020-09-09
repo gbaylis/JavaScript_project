@@ -1,6 +1,5 @@
 /*
-Created by gbaylis
-Dec 23rd 2019
+collisionDetection.js
 */
 
 export function detectCollision(ball, gameObject) {
