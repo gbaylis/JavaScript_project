@@ -1,6 +1,6 @@
 /*
-created by gbaylis
-Dec 27th 2019
+Brick Breaker game
+levels.js
 */
 
 import Brick from "/src/brick";
