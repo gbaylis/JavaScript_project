@@ -1,4 +1,5 @@
 /*
+Brick Breaker game
 collisionDetection.js
 */
 
