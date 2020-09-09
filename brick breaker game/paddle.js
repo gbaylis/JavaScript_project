@@ -1,6 +1,6 @@
 /*
-created by gbaylis
-Dec 27th, 2019
+brick breaker game
+paddle.js
 */
 
 export default class Paddle {
