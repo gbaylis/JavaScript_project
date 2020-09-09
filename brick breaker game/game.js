@@ -1,6 +1,5 @@
 /*
-Created by gbaylis 
-Dec 24th 2019
+game.js
 */
 
 import Paddle from "/src/paddle";
