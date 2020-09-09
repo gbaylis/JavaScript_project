@@ -1,5 +1,5 @@
 /*
-JS 
+Brick breaker game
 ball.js   
 */
 
